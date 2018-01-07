@@ -2,7 +2,6 @@
 
 (require racket/draw)
 (require racket/gui)
-(require (prefix-in greg: gregor))
 
 (define target (make-bitmap 1500 500))
 (define dc (new bitmap-dc% [bitmap target]))
