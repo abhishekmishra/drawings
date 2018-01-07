@@ -10,23 +10,18 @@
 ; This mode makes the pen fall on whole pixels
 (send dc set-smoothing 'aligned)
 
-(send dc translate 50 50)
+(send dc translate 100 100)
 
-(send dc draw-rectangle
-      0 0
-      600 50)
-
-(send dc translate 0 -50)
-
-(send dc draw-arc
-      0 0
-      500 100
-      0 3.14)
-
-(send dc translate 50 50)
-
+;(send dc draw-rectangle
+;      0 0
+;      200 100)
+;
 ;(send dc translate 0 -50)
-
+;
+;(send dc draw-arc
+;      0 0
+;      200 100
+;      0 3.14)
 
 (define (make-wheel wheel-size)
   ;(define (make-an-x length)
